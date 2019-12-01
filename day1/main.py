@@ -1,15 +1,11 @@
 def calculate_fuel(mass,recursive=False):
+    result = int(mass/3)-2
     if (recursive):
-        result = int(mass/3)-2
         fuel = result
         while((int(fuel/3)-2)>0):
             fuel= int(fuel/3)-2
             result+= fuel
-        return result
-
-    else:
-        result = int(mass/3)-2
-        return result
+    return result
 
 if __name__ == "__main__":
     with open("input.txt", mode='r') as f:
