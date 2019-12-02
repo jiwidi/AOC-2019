@@ -7,11 +7,7 @@ def int_code(code):
     i=0
     while(i+4<len(code)):
         if(code[i] in ops.keys()):
-            a = code[code[i+1]]
-            b = code[code[i+2]]
-            target = code[i+3]
-            #op
-            code[target] = ops[code[i]](a,b)
+            code[code[i+3]] = ops[code[i]](code[code[i+1]],code[code[i+2]])
             i+=4
         else:
             i+=1
@@ -23,13 +19,13 @@ def read_input(path):
 if __name__ == "__main__":
     #Read the input
     content = read_input("input.txt")
-    #Follow problem instructions to replace values
+    #Solve p1
+    ##Follow problem instructions to replace values
     content_p1 = content.copy()
     content_p1[1]=12
     content_p1[2]=2
-    #Solve the intcode
     result = int_code(content_p1)
-    print("Result for p1: {}".format(result[0]))
+    print("Result for p1: {}".format(result[0])) 
     #Solve p2 brute force
     for noun in range(99):
         for verb in range(99):
