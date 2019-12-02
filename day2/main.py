@@ -25,7 +25,7 @@ if __name__ == "__main__":
     content_p1[1]=12
     content_p1[2]=2
     result = int_code(content_p1)
-    print("Result for p1: {}".format(result[0])) 
+    print(f"--- Part One --- \n{result[0]}")
     #Solve p2 brute force
     for noun in range(99):
         for verb in range(99):
@@ -34,7 +34,7 @@ if __name__ == "__main__":
             content_p2[2]=verb
             r = int_code(content_p2)
             if(r[0]==19690720):
-                print("Noun:{}  Verb:{}  Result for p2: {}".format(noun,verb,100*noun+verb))
+                print(f"--- Part Two --- \n{100*noun+verb}")
 
 
 

@@ -18,8 +18,3 @@ if __name__ == "__main__":
     print("Part 1 result: {}".format(sum(content_p1))) #Result for p1
     content_p2 = [calculate_fuel(x,recursive=True) for x in content]
     print("Part 2 result: {}".format(sum(content_p2))) #Result for p2
-
-
-
-
-
