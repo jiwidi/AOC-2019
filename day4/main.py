@@ -115,6 +115,3 @@ if __name__ == "__main__":
             words2.append(minN)
             c+=1
     print(f"--- Part Two --- \n{c}")
-
-
-
