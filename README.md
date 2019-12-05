@@ -6,7 +6,7 @@
 |[02](https://adventofcode.com/2019/day/2)|1202 Program Alarm|[py](day2/main.py) [go](day2/main.go)|
 |[03](https://adventofcode.com/2019/day/3)|Crossed Wires| [py](day3/main.py)|
 |[04](https://adventofcode.com/2019/day/4)|Secure Container|[py](day4/main.py)|
-|[05](https://adventofcode.com/2019/day/5)|Sunny with a Chance of Asteroids|-|
+|[05](https://adventofcode.com/2019/day/5)|Sunny with a Chance of Asteroids|[py](day5/main.py)|
 |[06](https://adventofcode.com/2019/day/6)|-|-|
 |[07](https://adventofcode.com/2019/day/7)|-|-|
 |[08](https://adventofcode.com/2019/day/8)|-|-|
