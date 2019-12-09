@@ -78,6 +78,9 @@ def int_code(code,input):
     i=0
     while(i<len(code)):
         p1mode, p2mode, opcode = decode_op(code[i])
+        p1 = code[i+1] if p1mode else code[code[i+1]] 
+        p2 = code[i+2] if p2mode else code[code[i+2]]
+        print(f"Doing op {opcode} with p1 {p1} on mode {p1mode} and p2 {p2} on mode {p2mode} pointer at {i}")
         if(opcode in ops.keys()):
             i = ops[opcode](code,i,p1mode,p2mode,input)
         else:
@@ -93,7 +96,7 @@ if __name__ == "__main__":
     #ask for user input
     val = int(input("Enter your value: ").strip())
     #Read the input.txt
-    content = read_input("input.txt")
+    content = read_input("test.txt")
     #Solve p1
     content_p1 = content.copy()
     result = int_code(content_p1,val)
