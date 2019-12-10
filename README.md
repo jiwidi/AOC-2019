@@ -2,16 +2,16 @@
 
 |Day|Name|Solution|
 |---|---|---|
-|[01](https://adventofcode.com/2019/day/1)|The Tyranny of the Rocket Equation|[py](day1/main.py) [go](day1/main.go)|
-|[02](https://adventofcode.com/2019/day/2)|1202 Program Alarm|[py](day2/main.py) [go](day2/main.go)|
-|[03](https://adventofcode.com/2019/day/3)|Crossed Wires| [py](day3/main.py)|
+|[01](https://adventofcode.com/2019/day/1)|The Tyranny of the Rocket Equation|[py](day1/main.py)|
+|[02](https://adventofcode.com/2019/day/2)|1202 Program Alarm|[py](day2/main.py)|
+|[03](https://adventofcode.com/2019/day/3)|Crossed Wires|[py](day3/main.py))|
 |[04](https://adventofcode.com/2019/day/4)|Secure Container|[py](day4/main.py)|
 |[05](https://adventofcode.com/2019/day/5)|Sunny with a Chance of Asteroids|[py](day5/main.py)|
-|[06](https://adventofcode.com/2019/day/6)|-|-|
-|[07](https://adventofcode.com/2019/day/7)|-|-|
-|[08](https://adventofcode.com/2019/day/8)|-|-|
-|[09](https://adventofcode.com/2019/day/9)|-|-|
-|[10](https://adventofcode.com/2019/day/10)|-|-|
+|[06](https://adventofcode.com/2019/day/6)|Universal Orbit Map|[py](day6/main.py)|
+|[07](https://adventofcode.com/2019/day/7)|Amplification Circuit|[py](day7/main.py)|
+|[08](https://adventofcode.com/2019/day/8)|Space Image Format|[py](day8/main.py)|
+|[09](https://adventofcode.com/2019/day/9)|Sensor Boost|[py](day9/main.py)|
+|[10](https://adventofcode.com/2019/day/10)|Monitoring Station|[py](day10/main.py)|
 |[11](https://adventofcode.com/2019/day/11)|-|-|
 |[12](https://adventofcode.com/2019/day/12)|-|-|
 |[13](https://adventofcode.com/2019/day/13)|-|-|
